@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/login.css"/>
+</head>
+<body>
+    <div id="login">
+        <h1>Login</h1>
+        <h2 style="color:red">{{msg}}</h2>
+        <form method="post" action="/login">
+            <input type="text" required="required" placeholder="用户名" name="u"></input>
+            <input type="password" required="required" placeholder="密码" name="p"></input>
+            <button class="but" type="submit">登录</button>
+        </form>
+    </div>
+</body>
+<script src="dj.js"></script>
+</html>
